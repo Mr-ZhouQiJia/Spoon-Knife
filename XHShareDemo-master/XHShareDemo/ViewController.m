@@ -44,6 +44,10 @@
     [self.view addSubview:shareView];
 }
 
+- (void)eat{
+    NSLog(@"123");
+}
+
 #pragma mark -- XHShareViewDelegate
 - (void) XHDidClickShareBtn:(ShareBtn)type{
     switch (type) {
